@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 18%;
+  background-color: rgb(143, 100, 184);
+}
+
+.navbar .link:link,
+.link:visited,
+.link:active {
+  color: black;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.navbar h1 {
+  font-size: 38px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.navbar img {
+  width: 36px;
+  height: 36px;
+}
+
+section {
+  display: flex;
+  margin: 2em 8em;
+  gap: 90px;
+}
+
+.heading {
+  font-size: 26px;
+  font-weight: 700;
+  color: #810ca8;
+  margin: 15px 0;
+}
+
+.date {
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0 0 4px 0;
+  color: #9f73ab;
+  /* margin: 1em -0.1em; */
+}
+
+.text {
+  color: #404258;
+  margin: 12px 0;
+}
+
+.border {
+  border: solid black 1.5px;
+  margin: 10px 0;
+}
+
+.subhead {
+  font-size: 20px;
+  font-weight: 700;
+  color: #c147e9;
+  margin: 15px 0;
+}
+
+ol,
+ul {
+  margin-left: 3em;
+}
+
+li {
+  color: #404258;
+}
+
+button {
+  border-radius: 5px 0 5px 0;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background-image: linear-gradient(144deg, #810ca8, #c147e9 50%, #e5b8f4);
+  border: 1.5px solid #4a4a4a;
+  margin: 10px 8px 10px 0;
+  transition: background-color 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:hover {
+  color: #000000;
+  background-image: linear-gradient(144deg, #dfccfb, #d0bfff 50%, #beadfa);
+}
+
+.months {
+  margin-top: 4em;
+}
+
+aside {
+  width: 44%;
+}
+
+.same:link,
+.same:active,
+.same:visited {
+  color: blue;
+}
+
+.contact {
+  margin-top: 4em;
+}

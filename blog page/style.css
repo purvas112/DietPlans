@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif;
+}
+
+.main {
+  display: flex;
+}
+
+.primary {
+  width: 60%;
+  margin: 3em 6em;
+}
+
+.one {
+  border: 2px solid #2d033b;
+  padding: 1.6em;
+  margin-bottom: 3em;
+  border-radius: 15px 0 15px 0;
+}
+
+.catogary {
+  font-size: 17px;
+  font-weight: 700;
+  color: #aa77ff;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #810ca8;
+  margin: 5px 0 4px 0;
+}
+
+.color {
+  color: black;
+}
+
+.effect:link,
+.effect:active,
+.effect:visited {
+  color: #bface2;
+  font-weight: 700;
+}
+
+.effect:hover {
+  color: #2d033b;
+  transform: scale(1.1);
+  border-bottom: 2px solid #b5029d;
+}
